@@ -66,7 +66,7 @@ export default Portfolio;
 ```
 
 ### Skills.js
-```
+```jsx
 import React from 'react';
 import './styleport.css'; // Import the CSS file
 import linkedin from './linkedin.png';
@@ -140,7 +140,7 @@ function skills() {
 export default skills;
 ```
 ### Contact.js
-```
+```jsx
 import React from 'react';
 import './styleport.css'; // Import the CSS file
 import linkedin from './linkedin.png';
@@ -216,7 +216,7 @@ function Contact() {
 export default Contact;
 ```
 ### Styleport.css
-```
+```css
 body
 {
     margin: 0;
@@ -363,7 +363,7 @@ h2
 
 ```
 ### App.js
-```
+```jsx
 import React from 'react';
 import Portfolio from './portfolio';
 import skills from './skills.js';
