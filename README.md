@@ -2,7 +2,7 @@
 
 ## Program:
 ### Portfolio.js
-```
+``` jsx
 import React from 'react';
 import './styleport.css'; // Import the CSS file for styling
 import linkedin from './linkedin.png';
@@ -215,7 +215,153 @@ function Contact() {
 
 export default Contact;
 ```
+### Styleport.css
+```
+body
+{
+    margin: 0;
+}
+.main{
+    display: inline-flex;
+    justify-content: space-between;
+}
+.side_content{
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    align-content: space-between;
+    padding: 10px;
+    background-color: rgb(233, 233, 226);
+}
+.name{
+    display: flex;
+    font-size: 35px;
+    color: black;
+    padding: 55px;
+    
+}
+.content{
+    display: flex;
+    font-size: 25px;
+    opacity: 0.7;
+    display: flex;
+    padding: 45px;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom: 70px;
+}
+.mainlayout{
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    justify-content: center;
+    align-content: space-between;
+    padding: 40px;
+    background-image: url(./snow5.png);
+    background-size: cover;
+    opacity: 0.8;
+    
+}
+.content_layout{
+    display: flex;
+    width: 1186.5px;
+    flex-direction: column;
+    align-content: space-between;
+    padding: 10px;
+    height: 690px;
+}
+.image{
+    margin-top: 0;
+    width: 450px;
+    height: 450px;
+    border-radius: 100px;
+    background-image: url(./profile.png);
+    
+}
+a:hover
+{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+a
+{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.703);
+    text-decoration: none
+}
+.icons
+{
+    padding-left: 130px;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+}
+#contact h1{
+    margin: 10px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.input{
+    padding: 10px 15px;
+    margin: 12px;
+    width: 40%;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.759);
+    color:white;
+    font-size: 1.2rem;
+}
+#message{
+    margin: 15px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.759);
+    color: white;
+    height: 150px;
+    width: 750px;
+    font-size: 1.2rem;
 
+}
+.submit{
+    padding: 7px 14px;
+    margin: 15x;
+    width: 15%;
+    border-radius: 20px;
+    background-color:  rgba(0, 0, 0, 0.759);
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    margin-bottom: 1%;
+}
+.submit:hover{
+    background-color: rgb(48, 84, 97);
+    color: white;
+    cursor: pointer;
+}
+h2
+{
+    font-size:30px;
+}
+.container
+{
+    margin-left: 200px;
+    margin-top:5%;
+    height: 700px;
+    width: 1000px;
+    border-radius: 10px;
+}
+
+```
 ### App.js
 ```
 import React from 'react';
